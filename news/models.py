@@ -26,7 +26,6 @@ class Author(models.Model):
         self.ratingAuthor = pRat * 3 + cRat + commentPostRat
         # -------------------------------
 
-        self.ratingAuthor = pRat * 3 + cRat
         self.save()
 
 
